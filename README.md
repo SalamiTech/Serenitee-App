@@ -1,6 +1,6 @@
-# mental_health
+# Mental Health App
 
-A new Flutter project.
+Android and iOS mental health project for solution challenge
 
 ## Getting Started
 
