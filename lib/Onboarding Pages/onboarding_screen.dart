@@ -122,7 +122,7 @@ class Onboard {
 
 final List<Onboard> demo_data = [
   Onboard(
-    image: "assets/pic1.jpg",
+    image: "assets/onboard1.png",
     title: "Your Personal \nJourney Begins Here",
   ),
   Onboard(
