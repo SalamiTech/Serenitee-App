@@ -1,4 +1,4 @@
-# Mental Health App
+# MindEase App
 
 Android and iOS mental health project for solution challenge
 
