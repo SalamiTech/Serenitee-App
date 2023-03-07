@@ -23,7 +23,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   void dispose() {
     _pageController.dispose();
     super.dispose();
-  }
+  } //
 
   @override
   Widget build(BuildContext context) {
