@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mental_health/Onboarding%20Pages/onboarding_screen.dart';
+import 'package:mental_health/pages/music/playlist.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(fontFamily: 'PlayfairDisplay-VariableFont_wght'),
       debugShowCheckedModeBanner: false,
-      home: OnBoardingScreen(),
+      home: const PlayListPage(),
     );
   }
 }

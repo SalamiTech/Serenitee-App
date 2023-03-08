@@ -240,6 +240,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+  wave_progress_bars:
+    dependency: "direct main"
+    description:
+      name: wave_progress_bars
+      sha256: "047cd8ad7f53b745820a20aefa478e64c071412ba1138875c3d9aff852abee0a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0"
   xml:
     dependency: transitive
     description:
