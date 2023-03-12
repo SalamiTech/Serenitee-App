@@ -6,6 +6,6 @@ MindEase is an app designed to help users manage their mental health and wellnes
 
 # FEATURES
 
-- [] Mood tracking: MindEase allows you to track your mood and emotions, helping you to identify patterns and triggers. You can log your mood each day and track it over time, enabling you to understand how your mood fluctuates and how different factors affect your mental well-being.
+- [X] Mood tracking: MindEase allows you to track your mood and emotions, helping you to identify patterns and triggers. You can log your mood each day and track it over time, enabling you to understand how your mood fluctuates and how different factors affect your mental well-being.
 - [] 
 
