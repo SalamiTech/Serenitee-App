@@ -37,9 +37,9 @@ MindEase is an app designed to help users manage their mental health and wellnes
 
 # MUSIC & PODCASTS
 <p align = "center">
-<img src = "./images/m1.png" width='30%'>
-<img src = "./images/m2.png" width='30%'>
-<img src = "./images/m3.png" width='30%'>
+<img src = "./images/mp1.png" width='30%'>
+<img src = "./images/mp2.png" width='30%'>
+<img src = "./images/mp3.png" width='30%'>
 </p>
 
 # SLEEP & STORIES
