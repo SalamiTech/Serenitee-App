@@ -23,7 +23,7 @@ MindEase is an app designed to help users manage their mental health and wellnes
 - [ ] Tensor flow - ML
 
 # ONBOARDING SCREENS / SPLASH SCREENS
-<p align = "center">
+<p align = "center" style='display: 'grid''>
 <img src = "./images/m1.png" width='30%'>
 <img src = "./images/m2.png" width='30%'>
 <img src = "./images/m3.png" width='30%'>
