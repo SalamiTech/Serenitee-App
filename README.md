@@ -16,3 +16,8 @@ MindEase is an app designed to help users manage their mental health and wellnes
 
 - Community support: MindEase allows you to connect with a supportive community of users who are also managing their mental health. You can share your experiences, offer support, and get advice from others who understand what you're going through.
 
+# TECH STACK (MOBILE)
+* Flutter - UI
+* Firebase - backend 
+* GCP - Cloud Storage 
+* Tensor flow - ML
