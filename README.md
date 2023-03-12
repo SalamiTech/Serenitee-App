@@ -52,10 +52,10 @@ MindEase is an app designed to help users manage their mental health and wellnes
 <p align = "center">
 <img src = "./images/a1.png" width='30%'>
 <img src = "./images/a2.png" width='30%'>
-<img src = "./images/a3.png" width='30%'>
 <img src = "./images/thera.png" width='30%'>
 <img src = "./images/vc1.png" width='30%'>
 <img src = "./images/vc2.png" width='30%'>
+<img src = "./images/a3.png" width='30%'>
 </p>
 
 
