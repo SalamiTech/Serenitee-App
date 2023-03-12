@@ -6,6 +6,13 @@ MindEase is an app designed to help users manage their mental health and wellnes
 
 # FEATURES
 
-- [X] Mood tracking: MindEase allows you to track your mood and emotions, helping you to identify patterns and triggers. You can log your mood each day and track it over time, enabling you to understand how your mood fluctuates and how different factors affect your mental well-being.
-- [] 
+- Mood tracking: MindEase allows you to track your mood and emotions, helping you to identify patterns and triggers. You can log your mood each day and track it over time, enabling you to understand how your mood fluctuates and how different factors affect your mental well-being.
+
+- Guided meditations: MindEase provides a range of guided meditations and mindfulness exercises to help you reduce stress, anxiety, and depression. You can choose from different lengths and styles of meditation to suit your needs and preferences.
+
+- Self-help resources: MindEase provides a library of self-help resources on mental health, including articles, videos, and audio guides. These resources cover a range of topics, such as anxiety, depression, stress, self-esteem, and relationships.
+
+- Virtual therapy: MindEase provides access to virtual therapy sessions with licensed mental health professionals. You can choose from different therapists and book sessions at your convenience.
+
+- Community support: MindEase allows you to connect with a supportive community of users who are also managing their mental health. You can share your experiences, offer support, and get advice from others who understand what you're going through.
 
