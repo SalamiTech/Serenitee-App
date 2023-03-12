@@ -24,7 +24,10 @@ MindEase is an app designed to help users manage their mental health and wellnes
 
 # ONBOARDING SCREENS / SPLASH SCREENS
 <p align = "center">
-<img src = "a">
+<img src = "./images/m1.png">
+<img src = "./images/m2.png">
+<img src = "./images/m3.png">
+
 </p>
 
 
