@@ -48,7 +48,7 @@ class SongScreenPage extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(40),
                 child: Image.asset(
-                  "assets/frame1.png",
+                  "assets/images/frame1.png",
                   width: 350,
                   height: 300,
                   fit: BoxFit.cover,

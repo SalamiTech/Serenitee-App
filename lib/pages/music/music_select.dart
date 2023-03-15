@@ -1,11 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:mental_health/%20models/song_model.dart';
+
+import '../../widgets/section_header.dart';
+import '../../widgets/song_card.dart';
 
 class MusicSelectScreen extends StatelessWidget {
   const MusicSelectScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    List<Song> songs = Song.song;
     return Container(
       child: Scaffold(
         backgroundColor: Colors.white,
@@ -42,7 +47,7 @@ class MusicSelectScreen extends StatelessWidget {
                       const Text(
                         "Music & Podcast",
                         style: TextStyle(
-                            fontSize: 18, fontWeight: FontWeight.w400),
+                            fontSize: 20, fontWeight: FontWeight.w400),
                       ),
                       const SizedBox(
                         height: 20,
@@ -59,20 +64,101 @@ class MusicSelectScreen extends StatelessWidget {
                     fit: BoxFit.cover,
                   ),
                 ),
-                SizedBox(height: 15),
-                Row(
-                  children: const [
-                    Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text(
-                        ' Music Categories',
-                        textAlign: TextAlign.left,
-                        style: TextStyle(
-                            fontSize: 15, fontWeight: FontWeight.w500),
-                      ),
+                const SizedBox(height: 15),
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 7),
+                  child: Align(
+                    alignment: Alignment.topLeft,
+                    child: Text(
+                      ' Music Categories',
+                      style:
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.w400),
                     ),
+                  ),
+                ),
+                const SizedBox(
+                  height: 15,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    const SizedBox(width: 10),
+                    Expanded(
+                        child: ElevatedButton(
+                            onPressed: () {},
+                            child: Text("Strings"),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green,
+                            ))),
+                    const SizedBox(width: 10),
+                    Expanded(
+                        child: ElevatedButton(
+                            onPressed: () {},
+                            child: Text("Lo-Fi"),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green,
+                            ))),
+                    const SizedBox(width: 10),
+                    Expanded(
+                        child: ElevatedButton(
+                            onPressed: () {},
+                            child: Text("Cools"),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green,
+                            ))),
+                    const SizedBox(width: 10),
+                    Expanded(
+                        child: ElevatedButton(
+                            onPressed: () {},
+                            child: Text("Piano"),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green,
+                            ))),
+                    const SizedBox(width: 10),
                   ],
-                )
+                ),
+                const SizedBox(height: 10),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    children: const [
+                      SectionHeader(title: ' Recommended Music'),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 10),
+                SizedBox(
+                  height: MediaQuery.of(context).size.height * 0.27,
+                  child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
+                      itemCount: songs.length,
+                      itemBuilder: (context, index) {
+                        return SongCard(
+                          songs: songs[index],
+                        );
+                      }),
+                ),
+                const SizedBox(height: 10),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    children: const [
+                      SectionHeader(title: ' Recommended Music'),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 10),
+                SizedBox(
+                  height: MediaQuery.of(context).size.height * 0.27,
+                  child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
+                      itemCount: songs.length,
+                      itemBuilder: (context, index) {
+                        return SongCard(
+                          songs: songs[index],
+                        );
+                      }),
+                ),
               ],
             ),
           ),
