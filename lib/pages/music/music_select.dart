@@ -138,12 +138,69 @@ class MusicSelectScreen extends StatelessWidget {
                         );
                       }),
                 ),
+                //
+                // Podcast Session
+                //
+                const SizedBox(height: 15),
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 7),
+                  child: Align(
+                    alignment: Alignment.topLeft,
+                    child: Text(
+                      ' Podcast Categories',
+                      style:
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.w400),
+                    ),
+                  ),
+                ),
+                const SizedBox(
+                  height: 15,
+                ),
+                // Podcast sessions tabs
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    const SizedBox(width: 10),
+                    Expanded(
+                        child: ElevatedButton(
+                            onPressed: () {},
+                            child: Text("Talks"),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green,
+                            ))),
+                    const SizedBox(width: 10),
+                    Expanded(
+                        child: ElevatedButton(
+                            onPressed: () {},
+                            child: Text("Stress"),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green,
+                            ))),
+                    const SizedBox(width: 10),
+                    Expanded(
+                        child: ElevatedButton(
+                            onPressed: () {},
+                            child: Text("Calm"),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green,
+                            ))),
+                    const SizedBox(width: 10),
+                    Expanded(
+                        child: ElevatedButton(
+                            onPressed: () {},
+                            child: Text("Inspire"),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green,
+                            ))),
+                    const SizedBox(width: 10),
+                  ],
+                ),
                 const SizedBox(height: 10),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Column(
                     children: const [
-                      SectionHeader(title: ' Recommended Music'),
+                      SectionHeader(title: ' Recommended Podcast'),
                     ],
                   ),
                 ),
