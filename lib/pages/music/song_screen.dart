@@ -1,11 +1,49 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:just_audio/just_audio.dart';
+import 'package:rxdart/rxdart.dart' as rxdart;
+import '../../ models/song_model.dart';
+import '../../widgets/seekbar.dart';
 
-class SongScreenPage extends StatelessWidget {
+class SongScreenPage extends StatefulWidget {
   const SongScreenPage({super.key});
 
   @override
+  State<SongScreenPage> createState() => _SongScreenPageState();
+}
+
+class _SongScreenPageState extends State<SongScreenPage> {
+  @override
   Widget build(BuildContext context) {
+    AudioPlayer audioPlayer = AudioPlayer();
+    Song song = Song.song[0];
+
+    @override
+    void initState() {
+      super.initState();
+
+      audioPlayer.setAudioSource(ConcatenatingAudioSource(children: [
+        AudioSource.uri(
+          Uri.parse('asset:///${song.url}'),
+        ),
+      ]));
+    }
+
+    @override
+    void dispose() {
+      audioPlayer.dispose();
+      super.dispose();
+    }
+
+    // Stream<SeekBarData> get _seekBarDataStream =>
+    // rxdart.Rx.combineLatest2<Duration, Duration, SeekBarData>(
+    //   audioPlayer.positionStream,
+    //   audioPlayer.durationStream,
+    //   (Duration position, Duration? duration,) {
+    //     return SeekBarData(position, duration?? Duration.zero,);
+    //   }
+    // );
+
     return Container(
       child: Scaffold(
         backgroundColor: Colors.white,
@@ -48,7 +86,7 @@ class SongScreenPage extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(40),
                 child: Image.asset(
-                  "assets/images/frame1.png",
+                  "assets/frame1.png",
                   width: 350,
                   height: 300,
                   fit: BoxFit.cover,

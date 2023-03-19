@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MusicSelectScreen(),
+      home: OnBoardingScreen(),
       getPages: [
         GetPage(name: '/', page: () => const HomeScreen()),
         GetPage(name: '/song', page: () => const HomeScreen()),
