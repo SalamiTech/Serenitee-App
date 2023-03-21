@@ -13,17 +13,17 @@ class Song {
   static List<Song> song = [
     Song(
         title: 'Lofi Sleep',
-        description: '1hr:30mins',
+        description: 'Relaxing Music',
         url: 'assets/first.mp3',
         coverUrl: 'assets/frame1.png'),
     Song(
         title: 'Calm Strings',
-        description: '1hr:20mins',
+        description: 'Calm Music',
         url: 'assets/second.mp3',
         coverUrl: 'assets/frame1.png'),
     Song(
         title: 'Cheer Up',
-        description: '1hr:50mins',
+        description: 'Soul Music',
         url: 'assets/third.mp3',
         coverUrl: 'assets/frame1.png'),
   ];

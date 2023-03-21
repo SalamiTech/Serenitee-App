@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:mental_health/widgets/seekbar.dart';
 import 'package:rxdart/rxdart.dart' as rxdart;
@@ -15,7 +16,7 @@ class SongScreenPage extends StatefulWidget {
 
 class _SongScreenPageState extends State<SongScreenPage> {
   AudioPlayer audioPlayer = AudioPlayer();
-  Song song = Song.song[0];
+  Song song = Get.arguments ?? Song.song[0];
 
   @override
   void initState() {
@@ -64,7 +65,7 @@ class _SongScreenPageState extends State<SongScreenPage> {
                   children: [
                     InkWell(
                       onTap: () {
-                        // Navigator.pop(context);
+                        Navigator.pop(context);
                       },
                       child: const Icon(
                         CupertinoIcons.chevron_down,
@@ -97,7 +98,7 @@ class _SongScreenPageState extends State<SongScreenPage> {
                 ),
               ),
               const SizedBox(
-                height: 20,
+                height: 30,
               ),
               Column(
                 children: [
@@ -118,9 +119,10 @@ class _SongScreenPageState extends State<SongScreenPage> {
                             color: Colors.green,
                           ),
                         ),
-                        const Text(
-                          "Lo-fi Playlist",
-                          style: TextStyle(
+                        Text(
+                          song.title,
+                          maxLines: 2,
+                          style: const TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 18),
                         ),
                         InkWell(
@@ -135,16 +137,19 @@ class _SongScreenPageState extends State<SongScreenPage> {
                       ],
                     ),
                   ),
-                  const Text(
-                    "Relaxing Music",
-                    style: TextStyle(color: Colors.grey, fontSize: 12),
+                  Text(
+                    song.description,
+                    maxLines: 2,
+                    style: const TextStyle(
+                        fontWeight: FontWeight.normal, fontSize: 12),
                   ),
                   const SizedBox(
-                    height: 40,
+                    height: 30,
                   ),
                   Column(
                     children: [
                       _MusicPlayer(
+                          song: song,
                           seekBarDataStream: _seekBarDataStream,
                           audioPlayer: audioPlayer),
                       const SizedBox(
@@ -165,10 +170,12 @@ class _SongScreenPageState extends State<SongScreenPage> {
 class _MusicPlayer extends StatelessWidget {
   const _MusicPlayer({
     super.key,
+    required this.song,
     required Stream<SeekBarData> seekBarDataStream,
     required this.audioPlayer,
   }) : _seekBarDataStream = seekBarDataStream;
 
+  final Song song;
   final Stream<SeekBarData> _seekBarDataStream;
   final AudioPlayer audioPlayer;
 
@@ -190,7 +197,7 @@ class _MusicPlayer extends StatelessWidget {
               );
             },
           ),
-          PlayerButtons(audioPlayer: audioPlayer)
+          PlayerButtons(audioPlayer: audioPlayer),
         ],
       ),
     );

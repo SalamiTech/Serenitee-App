@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:mental_health/Onboarding%20Pages/onboarding_screen.dart';
 import 'package:mental_health/pages/home_page.dart';
 import 'package:mental_health/pages/music/music_select.dart';
+import 'package:mental_health/pages/music/playlist_screen.dart';
 import 'package:mental_health/pages/music/song_screen.dart';
 
 void main() {
@@ -17,11 +18,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SongScreenPage(),
+      home: const HomeScreen(),
       getPages: [
-        GetPage(name: '/', page: () => const HomeScreen()),
-        GetPage(name: '/song', page: () => const HomeScreen()),
-        GetPage(name: '/', page: () => const HomeScreen()),
+        GetPage(name: '/', page: () => const MusicSelectScreen()),
+        GetPage(name: '/song', page: () => const SongScreenPage()),
+        // GetPage(name: '/playlist', page: () => const PlaylistScreen()),
       ],
     );
   }
