@@ -18,48 +18,48 @@
 
 # TECH STACK (MOBILE)
 - [x] Flutter - UI
-- [ ] Firebase - backend 
+- [ ] Firebase - backend
 - [ ] GCP - Cloud Storage 
 - [ ] Tensor flow - ML
 
 # ONBOARDING SCREENS / SPLASH SCREENS
 <p align = "center">
-<img src = "./images/m1.png" width='30%'>
-<img src = "./images/m2.png" width='30%'>
-<img src = "./images/m3.png" width='30%'>
+<img src = "./images/m1.png" width='20%'>
+<img src = "./images/m2.png" width='20%'>
+<img src = "./images/m3.png" width='20%'>
 </p>
 
 # HOME & CALENDAR SCREENS
 <p align = "center">
-<img src = "./images/h1.png" width='30%'>
-<img src = "./images/c1.png" width='30%'>
+<img src = "./images/h1.png" width='20%'>
+<img src = "./images/c1.png" width='20%'>
 </p>
 
 # MUSIC & PODCASTS
 <p align = "center">
-<img src = "./images/mp1.png" width='30%'>
-<img src = "./images/mp2.png" width='30%'>
-<img src = "./images/mp3.png" width='30%'>
+<img src = "./images/mp1.png" width='20%'>
+<img src = "./images/mp2.png" width='20%'>
+<img src = "./images/mp3.png" width='20%'>
 </p>
 
 # SLEEP & STORIES
 <p align = "center">
-<img src = "./images/st.png" width='30%'>
-<img src = "./images/st1.png" width='30%'>
+<img src = "./images/st.png" width='20%'>
+<img src = "./images/st1.png" width='20%'>
 </p>
 
 # VIRTUAL THERAPY & APPOINTMENTS
 <p align = "center">
-<img src = "./images/a1.png" width='30%'>
-<img src = "./images/a2.png" width='30%'>
-<img src = "./images/thera.png" width='30%'>
-<img src = "./images/vc1.png" width='30%'>
-<img src = "./images/vc2.png" width='30%'>
+<img src = "./images/a1.png" width='20%'>
+<img src = "./images/a2.png" width='20%'>
+<img src = "./images/thera.png" width='20%'>
+<img src = "./images/vc1.png" width='20%'>
+<img src = "./images/vc2.png" width='20%'>
 </p>
 
 # VIRTUAL THERAPY & APPOINTMENTS
 <p align = "center">
-<img src = "./images/a3.png" width='30%'>
+<img src = "./images/a3.png" width='20%'>
 </p>
 
 
