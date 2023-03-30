@@ -29,13 +29,25 @@ Link to Serenitee Dashboard : <a href="https://github.com/ingucell/Serenitee-Adm
 # TO VIEW OUR INFORMATION ARCHIETECTURE AND DESIGN FLOW DIAGRAMS
 Link to Figma Designs For Serenitee App : <a href="https://www.figma.com/file/yUX5drCowH1W7yyq7buyJ5/mental-health-duplicate?node-id=0%3A1&t=Hldr0rMDXlHEwRGv-1">Serenitee Design Diagrams</a>
 
+# TO VIEW OS DESIGN FLOW & UI DESIGN FOR SMART WATCH
+Link to Figma Designs For Serenitee Smartch Watch App : <a href="https://www.figma.com/file/YY6zweDYbvU8AYeilC6slr/smart-watch-feature?node-id=0-1&t=IK2nTWg6Zkt8mWVz-0">Serenitee Smart Watch UI</a>
+
 # TECH STACK (MOBILE)
 - [x] Flutter - UI
-- [ ] Firebase - backend
+- [x] Firebase - backend
 - [ ] GCP - Cloud Storage 
 - [ ] Tensor flow - ML
 
+# LINK TO PROTOTYPE (FULLY BUILT FOR UI TESTINGI)
+- Link to repository: <a href="https://github.com/SalamiTech/serenitte-prototype">Serenitee Prototype Mobile App</a>
+
+
+
 # HOW TO INSTALL & RUN APP
+```Clone the repository```
+```Run pub get```
+```Run flutter```
+
 
 # ONBOARDING SCREENS / SPLASH SCREENS
 <p align = "center">
