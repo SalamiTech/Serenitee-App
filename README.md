@@ -43,9 +43,12 @@ Link to Figma Designs For Serenitee Smartch Watch App : <a href="https://www.fig
 
 
 
-# HOW TO INSTALL & RUN APP
+# HOW TO INSTALL & RUN APP (TERMINAL)
+
 ```Clone the repository```
+
 ```Run pub get```
+
 ```Run flutter```
 
 
