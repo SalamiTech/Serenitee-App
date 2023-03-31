@@ -29,8 +29,16 @@ Link to Serenitee Dashboard : <a href="https://github.com/ingucell/Serenitee-Adm
 # TO VIEW OUR INFORMATION ARCHIETECTURE AND DESIGN FLOW DIAGRAMS
 Link to Figma Designs For Serenitee App : <a href="https://www.figma.com/file/yUX5drCowH1W7yyq7buyJ5/mental-health-duplicate?node-id=0%3A1&t=Hldr0rMDXlHEwRGv-1">Serenitee Design Diagrams</a>
 
+
+
+
 # TO VIEW OS DESIGN FLOW & UI DESIGN FOR SMART WATCH
 Link to Figma Designs For Serenitee Smartch Watch App : <a href="https://www.figma.com/file/YY6zweDYbvU8AYeilC6slr/smart-watch-feature?node-id=0-1&t=IK2nTWg6Zkt8mWVz-0">Serenitee Smart Watch UI</a>
+<p align = "center">
+<img src = "./images/info.png" width='50%'>
+<img src = "./images/AII.png" width='50%'>
+</p>
+
 
 # TECH STACK (MOBILE)
 - [x] Flutter - UI
@@ -40,7 +48,6 @@ Link to Figma Designs For Serenitee Smartch Watch App : <a href="https://www.fig
 
 # LINK TO PROTOTYPE (FULLY BUILT FOR UI TESTINGI)
 - Link to repository: <a href="https://github.com/SalamiTech/serenitte-prototype">Serenitee Prototype Mobile App</a>
-
 
 
 # HOW TO INSTALL & RUN APP (TERMINAL)
