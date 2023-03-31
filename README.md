@@ -34,9 +34,9 @@ Link to Figma Designs For Serenitee App : <a href="https://www.figma.com/file/yU
 
 # TO VIEW OS DESIGN FLOW & UI DESIGN FOR SMART WATCH
 Link to Figma Designs For Serenitee Smartch Watch App : <a href="https://www.figma.com/file/YY6zweDYbvU8AYeilC6slr/smart-watch-feature?node-id=0-1&t=IK2nTWg6Zkt8mWVz-0">Serenitee Smart Watch UI</a>
+
 <p align = "center">
-<img src = "./images/info.png" width='50%'>
-<img src = "./images/AII.png" width='50%'>
+
 </p>
 
 
