@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get/get.dart';
 import 'package:mental_health/Onboarding%20Pages/onboarding_screen.dart';
 import 'package:mental_health/pages/home_page.dart';
@@ -7,11 +8,12 @@ import 'package:mental_health/pages/music/playlist_screen.dart';
 import 'package:mental_health/pages/music/song_screen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key});
 
   // This widget is the root of your application.
   @override
