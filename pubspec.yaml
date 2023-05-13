@@ -39,17 +39,28 @@ dependencies:
   get: ^4.6.5
   just_audio: ^0.9.28
   rxdart: ^0.27.5
+  flutter_native_splash: ^2.2.19
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: ^2.0.0
+
+flutter_native_splash: 
+  color: "#f7f6f1"
+  image: assets/sp.png
+  image_dark: assets/sp.png
+  android_gravity: center
+  ios_content_mode: scaleAspectFit
+
+  android_12:
+  new_color: "#f7f6f1"
+  new_image: assets/sp.png
+  new_image_dark: assets/sp.png
+  new_android_gravity: center
+  new_ios_content_mode: scaleAspectFit
+  width: double.infinity
+  height: double.infinity
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
